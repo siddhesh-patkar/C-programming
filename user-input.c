@@ -11,6 +11,7 @@ int main()
     printf("Enter your birth year:");
     scanf("%d",&birthYear);
     printf("You are %d  years old ",2021-birthYear);
+    printf("%p",&name);
     return 0;
 
 }
